@@ -1,5 +1,6 @@
 .background {
 height: 35vh;
+width: 100%;
 object-fit: cover;
 }
 
@@ -10,9 +11,7 @@ left: 0;
 width: 100vw;
 height: 100vh;
 transform: translateY(-20px);
-opacity: 0.5
-;
-z-index: 10;
+opacity: 0.5;
 }
 
 .container{
@@ -24,6 +23,7 @@ border-top-left-radius: 20px;
 border-top-right-radius: 28px;
 height: 70vh;
 transform: translateY(-60px);
+z-index: 2;
 
 
 img{
@@ -46,6 +46,7 @@ color: black;
 display: flex;
 flex-direction: column;
 width: 80%;
+
 }
 
 span{
@@ -56,13 +57,30 @@ margin-bottom: 0.5rem;
 font-family: italic;
 font-size: 0.90rem;
 padding-left: 1rem;
+
 }
 
 .bot{
 --border-radius: 20px;
-width: 326px;
-height: 56px;
-margin-top: 3rem;
-font-family: italic;
+--background: #2D9FDB;
+--box-shadow: none;
+font-style: italic;
+font-size: 0.8rem;
+width: 80%;
+height: 3rem;
+margin-top: 2rem;
+text-transform: capitalize;
 }
+
+p{
+color: #707070;
+margin-top: 2rem;
+font-size: .85rem;
+
+a{
+text-decoration: none;
+color: #2D9FDB;
+}
+}
+
 }

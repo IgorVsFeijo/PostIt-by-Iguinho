@@ -9,12 +9,14 @@
 
     <div class="container--inputs">
       <span>E-mail</span>
-      <input type="text">
+      <input type="text" [(ngModel)] = "loginPayLoad.email">
       <span>Senha</span>
-      <input type="password">
+      <input type="password" [(ngModel)]="loginPayLoad.password">
     </div>
     
-    <ion-button class="bot"> Confirmar </ion-button>
+    <ion-button class="bot" (click)="login()"> Confirmar </ion-button>
+
+    <p>Não possui conta? <a href="">Cadastre-se</a></p>
 
   </div>
 

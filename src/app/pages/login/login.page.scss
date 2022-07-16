@@ -1,0 +1,68 @@
+.background {
+height: 35vh;
+object-fit: cover;
+}
+
+.detail{
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+transform: translateY(-20px);
+opacity: 0.5
+;
+z-index: 10;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FFFFFF;
+border-top-left-radius: 20px;
+border-top-right-radius: 28px;
+height: 70vh;
+transform: translateY(-60px);
+
+
+img{
+width: 22%;
+height: 30%;
+object-fit: contain;
+}
+
+input{
+border: 1px solid #DBDBDB;
+background-color: transparent;
+outline: 0;
+margin-bottom: 1rem;
+border-radius: 20px;
+padding: 0.95rem;
+color: black;
+}
+
+&--inputs{
+display: flex;
+flex-direction: column;
+width: 80%;
+}
+
+span{
+color: #707070;
+font-weight: bold;
+letter-spacing: 1px;
+margin-bottom: 0.5rem;
+font-family: italic;
+font-size: 0.90rem;
+padding-left: 1rem;
+}
+
+.bot{
+--border-radius: 20px;
+width: 326px;
+height: 56px;
+margin-top: 3rem;
+font-family: italic;
+}
+}
